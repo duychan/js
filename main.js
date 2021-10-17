@@ -21,7 +21,9 @@ var myInfo = [{
 // for (var a of Object.values(myInfo)) {
 //     console.log(a)
 //}
-var course = myInfo.find(function(mycourse, index) {
-    return index == 0;
-})
-console.log(course)
+
+//              method off array
+// var course = myInfo.find(function(mycourse, index) {
+//     return index == 0;
+// })
+// console.log(course)
