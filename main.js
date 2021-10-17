@@ -24,4 +24,4 @@ var myInfo = [{
 var course = myInfo.find(function(mycourse, index) {
     return index == 0;
 })
-console.log(course)
+console.log(course);
