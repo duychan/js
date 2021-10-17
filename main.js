@@ -23,7 +23,7 @@ var myInfo = [{
 //}
 
 //              method off array
-// var course = myInfo.find(function(mycourse, index) {
+// var course = myInfo.find(function(myCourse, index) {
 //     return index == 0;
 // })
 // console.log(course);
