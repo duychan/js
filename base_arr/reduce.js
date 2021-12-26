@@ -58,6 +58,6 @@ var newCourse = topics.reduce(function(course, item) {
     return course.concat(item.course)
 }, [])
 var htmls = newCourse.map(function(arr, index) {
-        return `<h1>${arr.name}</h1>` // trả về 1 mảng chứa chuỗi đó
-    })
-    // console.log(htmls.join(''))
+    return `<h1>${arr.name}</h1>` // trả về 1 mảng chứa chuỗi đó
+})
+console.log(htmls.join(''))
