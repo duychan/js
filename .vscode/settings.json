@@ -1,0 +1,11 @@
+{
+    "editor.parameterHints.enabled": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggest.preview": true,
+    "[html]": {
+        "editor.matchBrackets": "never"
+    },
+    "[css]":{
+        "editor.matchBrackets": "never"
+    }
+}
