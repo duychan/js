@@ -9,14 +9,14 @@ var courses = [{
         coin: 222
     },
     {
-        id: 2,
-        name: 'PHP',
+        id: 3,
+        name: 'NodeJS',
         coin: 222
     }
 ]
 Array.prototype.filter2 = function(callback) {
-    var arr = []
-    for (var i in this) {
+    let arr = [];
+    for (let i in this) {
         if (this.hasOwnProperty(i)) {
             var result = callback(this[i], i, this)
             if (result) {
@@ -27,6 +27,6 @@ Array.prototype.filter2 = function(callback) {
     return arr;
 }
 var is = courses.filter2(function(element, index, arr) {
-    return element.id == 2;
+    return element ;
 })
 console.log(is)
